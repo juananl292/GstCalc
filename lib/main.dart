@@ -156,7 +156,7 @@ class _KakeboAppState extends State<KakeboApp> {
       title: 'Kakebo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF6E8B63)),
         useMaterial3: true,
       ),
       home: _loading

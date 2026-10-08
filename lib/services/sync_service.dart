@@ -72,7 +72,7 @@ class SyncService {
 
   SyncService({
     required this.deviceId,
-    this.defaultBaseUrl = 'http://192.168.50.72:3001',
+    this.defaultBaseUrl = 'http://100.93.150.68:3001',
     http.Client? client,
     this.timeout = const Duration(seconds: 4),
     this.onStatusChanged,
